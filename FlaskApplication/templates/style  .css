@@ -1,0 +1,108 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*1st page start*/
+
+.bg-img{
+width:100%;
+height:100vh;
+background:url(img/plane.jpg);
+background-size:cover;
+position: relative;
+
+}
+
+
+
+
+h1{
+	font-size: 30px;
+	margin-left: 36%;
+	color:rgb(18, 74, 159);
+	padding-top: 100px ;
+	font-weight: bold;
+}
+
+p{
+	margin-left: 36%;
+	padding-top: 15px;
+	color: white;
+}
+
+.form2{
+	margin-left: 36%;
+	padding-top: 20px;
+
+}
+
+.form2 .feild-mobile{
+
+	width: 18%;
+	height: 40px;
+	border: none;
+	padding: 5px;
+	margin: 5px;
+	background: rgb(217, 217, 217,);
+}
+
+
+
+.form2 .feild-country{
+
+	width: 18%;
+	height: 40px;
+	border: none;
+	padding: 5px;
+	margin: 5px;
+	background: rgb(217, 217, 217);
+}
+.form2 input{
+	width: 38%;
+	height: 40px;
+	border: none;
+	padding: 5px;
+	margin: 5px;
+	background: rgb(217, 217, 217);
+}
+
+font{
+	margin-left: 34%;
+	line-height: 100px;
+	color: white;
+}
+
+button{
+	width: 8%;
+	height: 12%;
+	background: rgb(18, 74, 159);
+	padding: 5px;
+	border: none;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 13px;
+	margin-left: 45%;
+}
+
+button a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+span{
+	margin-left: 40%;
+	line-height:50px;
+	color: white;
+}
+
+/*1st page end*/
+

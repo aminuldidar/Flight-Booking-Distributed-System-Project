@@ -1,0 +1,81 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*hero container start*/
+
+.hero-container{
+	width:100%;
+height:100vh;
+background:url(img/plane.jpg);
+background-size:cover;
+position: relative;
+}
+
+.sing-in-form{
+	width: 20%;
+	height: 16%;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	bottom: 50%;
+	left: 40%;
+}
+ h1{
+	font-size: 30px;
+	margin-left: 42%;
+	color:rgb(18, 74, 159);
+	line-height: 630px;
+	font-weight: bold;
+}
+
+.form{
+	text-align: center;
+}
+
+.form input{
+	width: 80%;
+	height: 35%;
+	border: none;
+	padding: 5px;
+	margin: 10px;
+	background: rgb(217, 217, 217);
+}
+
+button {
+	width: 40%;
+	height: 30%;
+	background: rgb(18, 74, 159);
+	border: none;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 15px;
+
+}
+
+button a{
+	text-decoration: none;
+	color: white;
+}
+
+
+.text{
+	margin-top:15px ;
+}
+
+.text a{
+	color: rgb(18, 74, 159);
+	font-weight: bold;
+}
+/*hero container end*/
+
+
+
+
+

@@ -1,0 +1,117 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.bg-img{
+	width:100%;
+height:100vh;
+background:url(img/plane.jpg);
+background-size:cover;
+}
+
+.search-container{
+	width: 80%;
+	height: 30%;
+	background: rgb(217, 217, 217,.5);
+	margin-left: 10%;
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+
+
+div{
+	width: 22%;
+	height: 30%;
+	background:rgb(217, 217, 217,.5) ;
+	align-content: center;
+	
+}
+
+
+div input{
+	width: 80%;
+	height: 30%;
+	margin-top: 5%;
+	margin-left: 7%;
+}
+
+
+div select{
+	width: 80%;
+	height: 30%;
+	margin-top: 5%;
+	margin-left: 10%;
+}
+
+div p{
+	color: gray;
+	text-align: center;
+}
+
+.select{
+	width: 80%;
+	height: 30%;
+	background: rgb(18, 74, 159,.5);
+	margin: 10px 10%;
+}
+
+span{
+	font-size: 30px;
+	font-weight: bold;
+	color: yellow;
+}
+
+
+.select2{
+width: 80%;
+	height: 30%;
+	background: rgb(18, 74, 159,.5);
+	margin: 10px 10%
+}
+
+
+button{
+	width:15%;
+	height: 18%;
+	background: rgb(249, 220, 57);
+	border: none;
+	margin-top: 50px;
+	margin-left: 75%;
+}
+
+button a{
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	color: rgb(18, 74, 159);
+}
+
+
+	
+
+
+ div p{
+	text-align: center;
+}
+
+.btn{
+	width:20%;
+	height: 19%;
+	background: rgb(249, 220, 57);
+	border: none;
+	margin-top: 60px;
+	margin-left: 75%;
+}
+
+.btn a{
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	color: rgb(18, 74, 159);
+}

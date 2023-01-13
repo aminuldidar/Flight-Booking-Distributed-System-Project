@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style 3.css') }}">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Blaka+Ink&family=Bungee+Spice&family=Dancing+Script:wght@700&family=Galada&family=Mochiy+Pop+P+One&family=Montserrat&family=Ms+Madi&family=Poppins:wght@100&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+	
+
+	<!---3rd page start--->
+<div class="bg-img">
+	<!---
+	<form action="{{url_for('test') }}" method="post">
+		<input type="text" name="dc">
+		<input type="text" name="ac">
+		<input type="submit">
+	</form>
+	--->
+	<button><a href="{{ url_for('registration') }}">Sign Up</a></button>
+	
+	<div class="search-container">
+		<p>Flight Search</p>
+	</br></br></br>
+		<form action="{{url_for('test') }}" method="post">
+			<input type="text" name="dc" placeholder="Departure City Name">
+			<input type="text" name="ac" placeholder="Arrival City Name">
+			<input type="submit">
+		</form>
+		<!---
+		&nbsp &nbsp &nbsp &nbsp<div><p>Departure</p>
+			<select> 
+				<option>Finland </option>
+				<option>Canada </option>
+				<option>Bangladesh </option>
+				<option>America</option>
+				<option>Uganda </option>
+				<option>Turkey </option>
+				<option>USA</option>
+			</select>
+
+
+		</div>&nbsp &nbsp
+		<div><p>Arrival</p>
+
+			<select> 
+				<option>Turkey </option>
+				<option>Canada </option>
+				<option>Bangladesh </option>
+				<option>America</option>
+				<option>Uganda </option>
+				<option>Finland </option>
+				<option>USA</option>
+				</select>
+
+
+		</div>&nbsp &nbsp
+		<div><p>Journey Date</p>
+			<input  class="feild" type="datetime-local" name="dt" id="dt" required="required">
+
+
+		</div>&nbsp &nbsp
+		<div><p>Return Date</p>
+
+			<input  class="feild" type="datetime-local" name="dt" id="dt" required="required">
+
+
+		</div>&nbsp &nbsp
+			<button class="btn"><a href="file:///D:/Class%20Practice/project/project%206%20r/index%204.html">Search</a></button>
+		--->
+	</div>
+
+
+
+</div>
+
+<!---3rd page end--->
+	
+</body>
+</html>
